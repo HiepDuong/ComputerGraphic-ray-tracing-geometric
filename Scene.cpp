@@ -57,14 +57,14 @@ Vector3d Scene::trace(const Ray &ray) {
  for (int i = 0; i < shapes.size(); i++) {
 	 HitRecord r = shapes[i]->intersect(reflactiveray);
 	 if (r.t > 0.00001) return result;
-
+ }
 	 result[0] = r.color[0] * phong;
 	 result[1] = r.color[1] * phong;
 	 result[2] = r.color[2] * phong;
 
 	 return result;
 
- }
+ 
 }
 
 void Scene::render(Image &image) {
