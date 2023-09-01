@@ -8,3 +8,10 @@ For problem 3 I use third party and understand the logic behind it,
 
 The comment in cpp will tell what will create by the function
 I use visual studio in window 10 
+
+Eddited Sep 1st. 2023:
+Gemetric primitives
+Ray tracing: simulates how light interact with object
+Transformation: move, scale the shape
+Shading model: reflect light
+Lighting Models: simulate different light sources
